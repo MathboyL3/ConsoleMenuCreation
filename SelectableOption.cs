@@ -24,10 +24,14 @@ namespace ConsoleMenuCreation
             click_action += click_action_to_add;
         }
 
-        public virtual void InvokeAction()
+        public virtual bool InvokeAction()
         {
             if (click_action != null)
+            {
                 click_action.Invoke();
+                return true;
+            }
+            return false;
         }
     }
 

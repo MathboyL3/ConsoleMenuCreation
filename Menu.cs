@@ -134,9 +134,9 @@ namespace ConsoleMenuCreation
             current_selected_option_index = current_selected_option_index == -1 ? selectable_options.Count-1 : current_selected_option_index;
         }
 
-        private void ExecuteCurrentSelectedOption()
+        private bool ExecuteCurrentSelectedOption()
         {
-            selectable_options[current_selected_option_index].InvokeAction();
+            return selectable_options[current_selected_option_index].InvokeAction();
         }
 
         private void WaitForSelection()
@@ -157,8 +157,8 @@ namespace ConsoleMenuCreation
                 }
                 else if(key == ConsoleKey.Enter)
                 {
-                    ExecuteCurrentSelectedOption();
-                    break;
+                    if(ExecuteCurrentSelectedOption())
+                        break;
                 }
             }
         }
