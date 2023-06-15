@@ -1,7 +1,4 @@
-﻿
-
-using ConsoleWriter;
-using System.Runtime.ConstrainedExecution;
+﻿using ConsoleUtils.WriterH;
 
 namespace ConsoleMenuCreation
 {

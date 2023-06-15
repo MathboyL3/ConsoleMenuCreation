@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleMenuCreation", "ConsoleMenuCreation.csproj", "{4465A68C-A46F-4271-9173-E2D629DAE216}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleWriter", "..\ConsoleWriter\ConsoleWriter.csproj", "{D1DBA16A-E551-4116-A763-1FA45F38D53E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleUtils", "..\ConsoleWriter\ConsoleUtils.csproj", "{D1DBA16A-E551-4116-A763-1FA45F38D53E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
